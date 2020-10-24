@@ -1,0 +1,93 @@
+@font-face{
+    font-family: 'Lato';
+    src: url(fonts/Lato/Lato-Black.ttf) format(truetype);
+}
+
+@font-face{
+    font-family: 'Nunito';
+    src: url(fonts/Nunito/Nunito-Black.ttf) format(truetype);
+}
+
+@font-face{
+    font-family: 'Raleway';
+    src: url(fonts/Raleway/static/Raleway-Black.ttf) format(truetype);
+}
+
+@font-face{
+    font-family: 'Montserrat';
+    src: url(fonts/Montserrat/Montserrat-Black.ttf) format(truetype);
+}
+
+body{
+    font-family: 'Montserrat',sans-serif;
+}
+
+h1,h2,h3{
+    font-weight: 900;
+}
+
+h4,h5,h6{
+    font-weight: 700;
+}
+.btn-outline-secondary{
+    background-color: transparent !important;
+    border-color: #011627 !important;
+    color: #011627 !important;
+
+}
+
+.btn-secondary{
+    background-color: #011627;
+}
+
+.btn-secondary:hover{
+    background-color: #30526d;
+    color: #ffffff;
+}
+
+.navbar{
+    background: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+.nav-link, .navbar-brand{
+    color: #011627;
+}
+
+.nav-link:hover, .navbar-brand:hover{
+    color: #777;
+}
+
+.cta {
+    background: #011627;
+    color: #acc6d8;
+}
+.cta h2{
+    color: #fafafa;
+}
+
+.heading-line{
+    height: 3px;
+    width: 10%;
+    background-color: #309db8;
+
+}
+
+footer{
+    background: #011627;
+    color:#a7c0d1;
+}
+
+.footer a{
+    color: #fafafa;
+}
+.footer h2{
+    color: #fafafa;
+}
+
+p{
+    font-family: 'Nunito';
+    font-weight: 100;
+    line-height: 1.6em;
+    
+}
